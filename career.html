@@ -84,13 +84,12 @@
   .think .expose{margin-top:64px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
 
   /* WHAT GOOD LOOKS LIKE */
-  .good .ggrid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--hair);border-bottom:none;margin-top:44px}
-  .good .gcell{padding:32px 30px 34px;border-right:1px solid var(--hair);border-bottom:1px solid var(--hair)}
-  .good .gcell:nth-child(4n){border-right:none}
-  .good .gcell h3{font-size:1.05rem;margin-top:14px;max-width:18ch}
-  .good .gcell p{color:var(--muted);font-size:.9rem;margin-top:12px}
-  .good .note{margin-top:40px;border-left:2px solid var(--hair);padding-left:28px;max-width:64ch}
-  .good .note p{color:var(--dim);font-size:.9rem}
+  .good .grows{margin-top:52px}
+  .good .grow{display:grid;grid-template-columns:96px 320px 1fr;gap:40px;padding:36px 0;border-top:1px solid var(--hair);align-items:baseline}
+  .good .grow:last-of-type{border-bottom:1px solid var(--hair)}
+  .good .gnum{font-family:'Archivo',sans-serif;font-size:1.9rem;font-weight:700;color:var(--dim);line-height:1}
+  .good .gname{font-family:'Archivo',sans-serif;font-size:1.4rem;font-weight:700;color:var(--white)}
+  .good .gdesc{color:var(--muted);max-width:64ch}
 
   /* FACES */
   .faces .vids{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
@@ -100,9 +99,6 @@
   .slidenav{display:flex;align-items:center;gap:18px}
   .snav{width:44px;height:44px;border:1px solid var(--hair);background:none;color:var(--txt);font-size:1rem;cursor:pointer;transition:all .15s}
   .snav:hover{border-color:var(--white);color:var(--white)}
-  .faces .qs{margin-top:64px;border-top:1px solid var(--hair);padding-top:34px;display:grid;grid-template-columns:320px 1fr;gap:40px}
-  .faces .qs ul{list-style:none;columns:2;column-gap:48px}
-  .faces .qs li{color:var(--muted);padding:9px 0;border-bottom:1px solid var(--hair);break-inside:avoid}
 
   /* DAY IN THE LIFE */
   .day .chain{display:flex;flex-wrap:wrap;gap:0;margin-top:44px;border:1px solid var(--hair)}
@@ -153,20 +149,14 @@
   .wa:hover{background:#232320;border-color:var(--dim)}
   .wa svg{width:26px;height:26px}
 
-  @media(max-width:1200px){
-    .good .ggrid{grid-template-columns:repeat(2,1fr)}
-    .good .gcell:nth-child(4n){border-right:1px solid var(--hair)}
-    .good .gcell:nth-child(2n){border-right:none}
-  }
   @media(max-width:900px){
     .wrap{padding:0 24px}
-    .istx .cols,.exit .grid,.notfor .row,.notfor .clip,.faces .qs,.think .expose{grid-template-columns:1fr}
+    .istx .cols,.exit .grid,.notfor .row,.notfor .clip,.think .expose{grid-template-columns:1fr}
     .think .row{grid-template-columns:1fr;gap:8px}
     .istx .strip{grid-template-columns:1fr 1fr}
     .faces .vids{grid-template-columns:repeat(2,1fr)}
-    .faces .qs ul{columns:1}
-    .good .ggrid{grid-template-columns:1fr}
-    .good .gcell,.good .gcell:nth-child(4n),.good .gcell:nth-child(2n){border-right:none}
+    .good .grow{grid-template-columns:1fr;gap:10px}
+    .good .gnum{font-size:1.5rem}
     .day .stg{flex:1 1 100%;border-right:none;border-bottom:1px solid var(--hair)}
     .day .stg:last-child{border-bottom:none}
     .celeb .mosaic{grid-template-columns:1fr 1fr}
@@ -354,52 +344,34 @@
 <section class="good">
   <div class="wrap">
     <span class="mono">What good looks like here</span>
-    <h2 style="margin:20px 0 12px">The eight behaviours we recognise.</h2>
-    <p class="lede">These are the behaviours that come up in reviews and in promotion decisions.</p>
-    <div class="ggrid">
-      <div class="gcell">
-        <span class="mono">Impact</span>
-        <h3>Know what the experience must achieve.</h3>
-        <p>Work is scoped against an agreed outcome rather than a feature list.</p>
+    <h2 style="margin:20px 0 12px">You can see it in how we show up.</h2>
+    <p class="lede">Good work is more than a strong final result. It is how we make decisions, support the people around us and take responsibility from the first conversation to the final handover.</p>
+    <div class="grows">
+      <div class="grow">
+        <span class="gnum">01</span>
+        <span class="gname">Make It Matter</span>
+        <p class="gdesc">We focus on impact, not activity. Understand what the work needs to achieve, make choices that move it forward and keep asking whether the result will matter to the people experiencing it.</p>
       </div>
-      <div class="gcell">
-        <span class="mono">Commitment</span>
-        <h3>Stay with the project through delivery.</h3>
-        <p>Scoping, build and installation are not handed off to separate people.</p>
+      <div class="grow">
+        <span class="gnum">02</span>
+        <span class="gname">Do What You Said</span>
+        <p class="gdesc">Commitment shows up in the follow-through. Be consistent, meet the standard you agreed to and flag risks early. If something changes, communicate it. If you own it, see it through.</p>
       </div>
-      <div class="gcell">
-        <span class="mono">Consistency</span>
-        <h3>Deliver the same standard every time.</h3>
-        <p>Deployment-ready systems are documented and tested, so repeat installations do not depend on individuals.</p>
+      <div class="grow">
+        <span class="gnum">03</span>
+        <span class="gname">Step In and Speak Up</span>
+        <p class="gdesc">Initiative means noticing what needs attention and doing something about it. Ask the difficult question, share the unfinished idea and raise problems with possible solutions. You do not need to wait for permission to make the work better.</p>
       </div>
-      <div class="gcell">
-        <span class="mono">Initiative</span>
-        <h3>Raise risks early, with options.</h3>
-        <p>Flagging a problem includes proposing how to handle it.</p>
+      <div class="grow">
+        <span class="gnum">04</span>
+        <span class="gname">Care About the Finish</span>
+        <p class="gdesc">Quality lives in the details people notice and the ones they never see. Check the work, test it properly and take pride in getting it right. When something falls short, own it, fix it and learn from it.</p>
       </div>
-      <div class="gcell">
-        <span class="mono">Quality</span>
-        <h3>Complete testing before launch.</h3>
-        <p>Quality assurance is finished in-house, before anything goes in front of the public.</p>
+      <div class="grow">
+        <span class="gnum">05</span>
+        <span class="gname">Make the Team Stronger</span>
+        <p class="gdesc">Collaboration is not just being agreeable. Share what you know, invite different perspectives and challenge ideas with respect. Ask for help when you need it and offer it when you can. We get better by learning from the work and from one another.</p>
       </div>
-      <div class="gcell">
-        <span class="mono">Collaboration</span>
-        <h3>Work directly with the other disciplines.</h3>
-        <p>Decisions that cross design, engineering and production get made in the same room.</p>
-      </div>
-      <div class="gcell">
-        <span class="mono">Learning</span>
-        <h3>Change the approach when the evidence changes.</h3>
-        <p>Concepts are tested so they can be revised. Some of what you make will be set aside.</p>
-      </div>
-      <div class="gcell">
-        <span class="mono">Accountability</span>
-        <h3>Report problems as they happen.</h3>
-        <p>Reviews examine decisions rather than individuals.</p>
-      </div>
-    </div>
-    <div class="note">
-      <p>[ Each behaviour to carry a real project example · Siewhua to consolidate photography and descriptions · progress 4 September, completion 18 September 2026 ]</p>
     </div>
   </div>
 </section>
@@ -444,22 +416,6 @@
         <div class="ph port"><div class="play">▶</div>[ Interview · 9:16 ]</div>
         <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Recent joiner · tenure to be supplied]</span></div>
       </div>
-    </div>
-    <div class="qs">
-      <div>
-        <span class="mono">What we asked</span>
-        <p style="color:var(--dim);font-size:.9rem;margin-top:14px">[ Filming to be planned · Irfan · format, participants, questions and final edits · completion 16 October 2026 ]</p>
-      </div>
-      <ul>
-        <li>What surprised you after joining Trinax?</li>
-        <li>What does your job actually look like?</li>
-        <li>What are you most proud of?</li>
-        <li>What does Trinax expect from you?</li>
-        <li>What have you learnt here?</li>
-        <li>What kind of person thrives at Trinax?</li>
-        <li>What can be difficult about working here?</li>
-        <li>Describe Trinax in three words.</li>
-      </ul>
     </div>
   </div>
 </section>

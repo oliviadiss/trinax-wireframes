@@ -63,16 +63,16 @@ Per the client brief (Google Doc, "CAREER PAGE"). career.html carries a temporar
 - A Project in the Life: documentary-style project follow, new filming (completion 16 Oct 2026)
 - How We Celebrate: curation of existing footage/photos + ongoing capture (Irfan)
 - It May Not Be For You If: v1 video ready 27 Aug 2026, link it in place of the placeholder
-- Real project examples for each of the eight behaviours
+- Real project examples for each of the five behaviours
 
 ### Career copy — deliberate exceptions
 
 - "Different Minds. Bold Ideas. Real Impact." (This is Trinax h2) is client-specified. Title case and "impact" both depart from the guidelines' sentence-case rule and abstract-noun avoid list. Leave as written; do not normalise.
+- The five behaviour names in What Good Looks Like Here ("Make It Matter", "Do What You Said", "Step In and Speak Up", "Care About the Finish", "Make the Team Stronger") are client-specified Title Case, same exception.
+- The brief lists eight behaviours; the client consolidated them into five. All eight are still covered: commitment and consistency both sit in Do What You Said, quality and accountability in Care About the Finish, collaboration and learning in Make the Team Stronger.
 
 ### Career copy — claims to validate with Trinax
 
-Sourced from the brand narrative where possible. These four describe internal process and are not in the brief or the narrative — confirm or replace before launch:
+Sourced from the brand narrative where possible. This one describes internal process and is not in the brief or the narrative — confirm or replace before launch:
 
 - "Projects here are expected to spend real time in the first diamond." (how-we-think, Double Diamond)
-- "These are the behaviours that come up in reviews and in promotion decisions." (what-good-looks-like lede)
-- "Reviews examine decisions rather than individuals." (accountability behaviour)
