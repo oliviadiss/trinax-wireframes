@@ -101,9 +101,24 @@
   .snav:hover{border-color:var(--white);color:var(--white)}
 
   /* DAY IN THE LIFE */
-  .day .chain{display:flex;flex-wrap:wrap;gap:0;margin-top:44px;border:1px solid var(--hair)}
-  .day .stg{flex:1 1 11%;min-width:120px;padding:24px 18px;border-right:1px solid var(--hair)}
+  .day .chain{display:grid;grid-template-columns:repeat(9,1fr);margin-top:44px;border:1px solid var(--hair)}
+  .day .stg{padding:24px 14px;border-right:1px solid var(--hair)}
   .day .stg:last-child{border-right:none}
+  /* 9 across -> 3x3 -> stacked, so a row is never left with one cell */
+  @media(max-width:1140px){
+    .day .chain{grid-template-columns:repeat(3,1fr)}
+    .day .stg{border-bottom:1px solid var(--hair)}
+    .day .stg:nth-child(3n){border-right:none}
+    .day .stg:nth-child(n+7){border-bottom:none}
+  }
+  @media(max-width:700px){
+    .faces .vids{grid-template-columns:1fr}
+  }
+  @media(max-width:560px){
+    .day .chain{grid-template-columns:1fr}
+    .day .stg{border-right:none;border-bottom:1px solid var(--hair)}
+    .day .stg:last-child{border-bottom:none}
+  }
   .day .stg .sn{font-family:'JetBrains Mono',monospace;font-size:.66rem;letter-spacing:.12em;color:var(--dim)}
   .day .stg .sl{display:block;font-family:'Archivo',sans-serif;font-size:.98rem;font-weight:600;color:var(--white);margin-top:10px}
   .day .doc{margin-top:44px}
@@ -154,11 +169,8 @@
     .istx .cols,.exit .grid,.notfor .row,.notfor .clip,.think .expose{grid-template-columns:1fr}
     .think .row{grid-template-columns:1fr;gap:8px}
     .istx .strip{grid-template-columns:1fr 1fr}
-    .faces .vids{grid-template-columns:repeat(2,1fr)}
     .good .grow{grid-template-columns:1fr;gap:10px}
     .good .gnum{font-size:1.5rem}
-    .day .stg{flex:1 1 100%;border-right:none;border-bottom:1px solid var(--hair)}
-    .day .stg:last-child{border-bottom:none}
     .celeb .mosaic{grid-template-columns:1fr 1fr}
     .celeb .mosaic > *:nth-child(1),.celeb .mosaic > *:nth-child(6){grid-column:span 2}
     .exit .side{border-left:none;padding-left:0;border-top:1px solid var(--hair);padding-top:40px}
@@ -382,11 +394,10 @@
     <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap">
       <div>
         <span class="mono">Faces of Trinax</span>
-        <h2 style="margin:20px 0 12px">Trinaxians on working here.</h2>
-        <p class="lede">Six conversations across different functions, seniority and length of service.</p>
+        <h2 style="margin:20px 0 0">Meet Trinaxians</h2>
       </div>
       <div class="slidenav">
-        <span class="mono">01 / 06</span>
+        <span class="mono">01 / 02</span>
         <button class="snav" aria-label="Previous">←</button>
         <button class="snav" aria-label="Next">→</button>
       </div>
@@ -394,27 +405,15 @@
     <div class="vids">
       <div>
         <div class="ph port"><div class="play">▶</div>[ Interview · 9:16 ]</div>
-        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Engineering · tenure to be supplied]</span></div>
+        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Engineering]</span></div>
       </div>
       <div>
         <div class="ph port"><div class="play">▶</div>[ Interview · 9:16 ]</div>
-        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Design · tenure to be supplied]</span></div>
+        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Design]</span></div>
       </div>
       <div>
         <div class="ph port"><div class="play">▶</div>[ Interview · 9:16 ]</div>
-        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Research · tenure to be supplied]</span></div>
-      </div>
-      <div>
-        <div class="ph port"><div class="play">▶</div>[ Interview · 9:16 ]</div>
-        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Production · tenure to be supplied]</span></div>
-      </div>
-      <div>
-        <div class="ph port"><div class="play">▶</div>[ Interview · 9:16 ]</div>
-        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Project management · tenure to be supplied]</span></div>
-      </div>
-      <div>
-        <div class="ph port"><div class="play">▶</div>[ Interview · 9:16 ]</div>
-        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Recent joiner · tenure to be supplied]</span></div>
+        <div class="fcap"><span class="fname">[Name]</span><span class="frole">[Research]</span></div>
       </div>
     </div>
   </div>
