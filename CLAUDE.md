@@ -64,3 +64,12 @@ Per the client brief (Google Doc, "CAREER PAGE"). career.html carries a temporar
 - How We Celebrate: curation of existing footage/photos + ongoing capture (Irfan)
 - It May Not Be For You If: v1 video ready 27 Aug 2026, link it in place of the placeholder
 - Real project examples for each of the eight behaviours
+
+### Career copy — claims to validate with Trinax
+
+Sourced from the brand narrative where possible. These four describe internal process and are not in the brief or the narrative — confirm or replace before launch:
+
+- "Projects here are expected to spend real time in the first diamond." (how-we-think, Double Diamond)
+- "The measures are agreed with the client before design starts." (how-we-think, Return on Experience)
+- "These are the behaviours that come up in reviews and in promotion decisions." (what-good-looks-like lede)
+- "Reviews examine decisions rather than individuals." (accountability behaviour)
