@@ -65,10 +65,10 @@ Per the client brief (Google Doc, "CAREER PAGE"). career.html carries a temporar
 - It May Not Be For You If: v1 video ready 27 Aug 2026, link it in place of the placeholder
 - Real project examples for each of the five behaviours
 
-### Career copy — deliberate exceptions
+### Career copy — notes
 
-- Client-specified Title Case headings. These depart from the guidelines' sentence-case rule; leave as written and do not normalise: "Different Minds. Bold Ideas. Real Impact." (This is Trinax), "Watch an Idea Become an Experience." (A Project in the Life), "We Build Celebration Into the Process." (How We Celebrate), and the five behaviour names in What Good Looks Like Here ("Make It Matter", "Do What You Said", "Step In and Speak Up", "Care About the Finish", "Make the Team Stronger"). "Real Impact" also uses a word on the abstract-noun avoid list.
-- The brief lists eight behaviours; the client consolidated them into five. All eight are still covered: commitment and consistency both sit in Do What You Said, quality and accountability in Care About the Finish, collaboration and learning in Make the Team Stronger.
+- Headings are sentence case throughout, per the guidelines. Capitals retained only for proper nouns: "Trinax"/"Trinaxians", and the framework names "Double Diamond" and "Return on Experience".
+- The brief lists eight behaviours; the client consolidated them into five. All eight are still covered: commitment and consistency both sit in "Do what you said", quality and accountability in "Care about the finish", collaboration and learning in "Make the team stronger".
 
 ### Career copy — claims to validate with Trinax
 
