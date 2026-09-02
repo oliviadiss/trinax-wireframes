@@ -63,7 +63,8 @@ Per the client brief (Google Doc, "CAREER PAGE"). The page no longer carries an 
 - A Project in the Life: documentary-style project follow, new filming (completion 16 Oct 2026)
 - How We Celebrate: curation of existing footage/photos + ongoing capture (Irfan)
 - Real project examples for each of the five behaviours
-- Closing CTA: LinkedIn job-openings URL, and a careers email address for resume submissions (currently routes to contact.html)
+- Closing CTA: LinkedIn job-openings URL (button is href="#"), and a careers email address — "Send your application" routes to contact.html meanwhile, and the on-page placeholder note has been removed, so this is the only record
+- Closing CTA attributes Joel Goh as "Founder & CEO" to match about.html; the client supplied "CEO of Trinax"
 
 ### Career copy — notes
 
