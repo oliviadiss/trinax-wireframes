@@ -74,6 +74,5 @@ Per the client brief (Google Doc, "CAREER PAGE"). career.html carries a temporar
 Sourced from the brand narrative where possible. These four describe internal process and are not in the brief or the narrative — confirm or replace before launch:
 
 - "Projects here are expected to spend real time in the first diamond." (how-we-think, Double Diamond)
-- "The measures are agreed with the client before design starts." (how-we-think, Return on Experience)
 - "These are the behaviours that come up in reviews and in promotion decisions." (what-good-looks-like lede)
 - "Reviews examine decisions rather than individuals." (accountability behaviour)
