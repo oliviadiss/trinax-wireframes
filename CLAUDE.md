@@ -67,8 +67,7 @@ Per the client brief (Google Doc, "CAREER PAGE"). career.html carries a temporar
 
 ### Career copy — deliberate exceptions
 
-- "Different Minds. Bold Ideas. Real Impact." (This is Trinax h2) is client-specified. Title case and "impact" both depart from the guidelines' sentence-case rule and abstract-noun avoid list. Leave as written; do not normalise.
-- The five behaviour names in What Good Looks Like Here ("Make It Matter", "Do What You Said", "Step In and Speak Up", "Care About the Finish", "Make the Team Stronger") are client-specified Title Case, same exception.
+- Client-specified Title Case headings. These depart from the guidelines' sentence-case rule; leave as written and do not normalise: "Different Minds. Bold Ideas. Real Impact." (This is Trinax), "Watch an Idea Become an Experience." (A Project in the Life), and the five behaviour names in What Good Looks Like Here ("Make It Matter", "Do What You Said", "Step In and Speak Up", "Care About the Finish", "Make the Team Stronger"). "Real Impact" also uses a word on the abstract-noun avoid list.
 - The brief lists eight behaviours; the client consolidated them into five. All eight are still covered: commitment and consistency both sit in Do What You Said, quality and accountability in Care About the Finish, collaboration and learning in Make the Team Stronger.
 
 ### Career copy — claims to validate with Trinax
