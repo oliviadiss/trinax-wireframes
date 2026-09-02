@@ -15,7 +15,7 @@ Design prototypes for the new trinax.sg, by Our Little Company (OLC).
 | case-study-dreamlab.html | Featured case study template (URA Dream Lab) | v1, separate template from projects |
 | project-changi.html | Standard project template (Changi Peanuts) | v1, top banner explains the template |
 | about.html | About (merged company + approach) | v1 |
-| career.html | Career (8 sections per client brief, not an open-roles page) | v1, media placeholders |
+| career.html | Career (7 sections, not an open-roles page) | v1, media placeholders |
 | contact.html | Contact | v1 |
 | insights.html | Insights landing | v1 |
 | article.html | Article template (real Trinax article as sample) | v1 |
@@ -62,10 +62,13 @@ Per the client brief (Google Doc, "CAREER PAGE"). career.html carries a temporar
 - Faces of Trinax: 6+ interviews, new filming (Irfan — format, participants, questions, edits; completion 16 Oct 2026)
 - A Project in the Life: documentary-style project follow, new filming (completion 16 Oct 2026)
 - How We Celebrate: curation of existing footage/photos + ongoing capture (Irfan)
-- It May Not Be For You If: v1 video ready 27 Aug 2026, link it in place of the placeholder
 - Real project examples for each of the five behaviours
+- Closing CTA: LinkedIn job-openings URL, and a careers email address for resume submissions (currently routes to contact.html)
 
 ### Career copy — notes
+
+- The brief's section 8, "It May Not Be For You If", was removed from the page at the client's request. Its v1 video (ready 27 Aug 2026) is therefore unused. Restore from git history if it comes back.
+- The closing CTA is the page's inverted light section, replacing the contrast moment lost with section 8. Joel Goh's quote is verbatim as supplied, including the "challenge; At" punctuation. About.html styles him "Founder & CEO"; the CTA says "CEO of Trinax" as given.
 
 - Headings are sentence case throughout, per the guidelines. Capitals retained only for proper nouns: "Trinax"/"Trinaxians", and the framework names "Double Diamond" and "Return on Experience".
 - The brief lists eight behaviours; the client consolidated them into five. All eight are still covered: commitment and consistency both sit in "Do what you said", quality and accountability in "Care about the finish", collaboration and learning in "Make the team stronger".

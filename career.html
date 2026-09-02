@@ -111,24 +111,22 @@
   .celeb .mosaic > *:nth-child(1){grid-column:span 2}
   .celeb .mosaic > *:nth-child(6){grid-column:span 2}
 
-  /* NOT FOR YOU — inverted */
-  .notfor{background:var(--inv-bg);color:var(--inv-txt)}
-  .notfor h2,.notfor h3{color:var(--inv-txt)}
-  .notfor .mono{color:var(--inv-muted)}
-  .notfor .lede{color:var(--inv-muted)}
-  .notfor .rows{margin-top:44px;border-top:1px solid var(--inv-hair)}
-  .notfor .row{display:grid;grid-template-columns:1fr 1.4fr;gap:24px;padding:24px 0;border-bottom:1px solid var(--inv-hair);align-items:baseline}
-  .notfor .nname{font-family:'Archivo',sans-serif;font-size:1.15rem;font-weight:700;color:var(--inv-txt);max-width:24ch}
-  .notfor .ngloss{color:var(--inv-muted);font-size:.95rem}
-  .notfor .clip{margin-top:56px;display:grid;grid-template-columns:1fr 1.2fr;gap:48px;align-items:center}
-  .notfor .ph{background:linear-gradient(170deg,#DAD8D1,#CDCBC3);color:#8B897F}
-  .notfor .ph .play{border-color:#B4B2A9}
-  .notfor .clip p{color:var(--inv-muted);margin-top:16px;max-width:44ch}
 
-  .exit{border-bottom:none;padding-bottom:140px}
-  .exit .grid{display:grid;grid-template-columns:1.2fr 1fr;gap:80px;align-items:start}
-  .exit p{color:var(--muted);margin-top:18px;max-width:46ch}
-  .exit .side{border-left:1px solid var(--hair);padding-left:48px}
+  /* CLOSING CTA — inverted, the page's contrast moment */
+  .ctaq{background:var(--inv-bg);color:var(--inv-txt);border-bottom:none;padding-bottom:130px}
+  .ctaq .mono{color:var(--inv-muted)}
+  .ctaq blockquote{margin-top:26px}
+  /* ch must sit on the p: on the blockquote it resolves against the inherited body size */
+  .ctaq blockquote p{font-family:'Archivo',sans-serif;font-size:clamp(1.55rem,2.9vw,2.5rem);font-weight:600;color:var(--inv-txt);line-height:1.16;letter-spacing:-0.02em;max-width:26ch}
+  .ctaq cite{display:block;margin-top:30px;font-style:normal;font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--inv-muted)}
+  .ctaq .acts{margin-top:60px;border-top:1px solid var(--inv-hair);padding-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+  .ctaq .act h3{font-size:1.15rem;color:var(--inv-txt)}
+  .ctaq .act p{color:var(--inv-muted);font-size:.95rem;margin-top:12px;max-width:38ch}
+  .ctaq .act .btn{margin-top:26px;border-color:var(--inv-txt);color:var(--inv-txt)}
+  .ctaq .act .btn.solid{background:var(--inv-txt);color:var(--inv-bg);border-color:var(--inv-txt)}
+  .ctaq .act .btn:not(.solid):hover{background:var(--inv-txt);color:var(--inv-bg);border-color:var(--inv-txt)}
+  .ctaq .act .btn.solid:hover{background:#000;border-color:#000}
+  .ctaq .act .note{margin-top:16px;color:var(--inv-muted)}
 
   footer{border-top:1px solid var(--hair);padding:72px 0 44px}
   footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1.3fr;gap:44px}
@@ -147,14 +145,14 @@
 
   @media(max-width:900px){
     .wrap{padding:0 24px}
-    .istx .cols,.exit .grid,.notfor .row,.notfor .clip,.think .expose{grid-template-columns:1fr}
+    .istx .cols,.think .expose{grid-template-columns:1fr}
+    .ctaq .acts{grid-template-columns:1fr;gap:44px}
     .think .row{grid-template-columns:1fr;gap:8px}
     .istx .strip{grid-template-columns:1fr 1fr}
     .good .grow{grid-template-columns:1fr;gap:10px}
     .good .gnum{font-size:1.5rem}
     .celeb .mosaic{grid-template-columns:1fr 1fr}
     .celeb .mosaic > *:nth-child(1),.celeb .mosaic > *:nth-child(6){grid-column:span 2}
-    .exit .side{border-left:none;padding-left:0;border-top:1px solid var(--hair);padding-top:40px}
     footer .cols{grid-template-columns:1fr 1fr}
     nav ul{display:none}
     section{padding:72px 0}
@@ -428,62 +426,26 @@
   </div>
 </section>
 
-<!-- 8. IT MAY NOT BE FOR YOU IF — inverted -->
-<section class="notfor">
-  <div class="wrap">
-    <span class="mono">It may not be for you if</span>
-    <h2 style="margin:20px 0 12px">This may not suit you.</h2>
-    <p class="lede">These are real conditions of the job. They will not suit everyone, and it is better to know before an interview than after six months.</p>
-    <div class="rows">
-      <div class="row">
-        <span class="nname">You want a fixed remit.</span>
-        <span class="ngloss">Roles overlap. You will be asked to work outside your job title.</span>
-      </div>
-      <div class="row">
-        <span class="nname">You wait to be told.</span>
-        <span class="ngloss">Direction exists, but daily work is not queued up for you.</span>
-      </div>
-      <div class="row">
-        <span class="nname">Feedback lands badly.</span>
-        <span class="ngloss">Reviews are direct and frequent, and they are about the work.</span>
-      </div>
-      <div class="row">
-        <span class="nname">Ambiguity unsettles you.</span>
-        <span class="ngloss">Early-stage projects are genuinely unclear, and some of what you build will be set aside on the evidence.</span>
-      </div>
-      <div class="row">
-        <span class="nname">High standards feel like pressure.</span>
-        <span class="ngloss">Public installations open on a fixed date, in front of an audience with no context for the work.</span>
-      </div>
-    </div>
-    <div class="clip">
-      <div class="ph wide"><div class="play">▶</div>[ Team perspectives · 16:9 ]<br>[ v1 ready · 27 August 2026 ]</div>
-      <div>
-        <h3 style="font-size:1.4rem">Hear it from the team.</h3>
-        <p>Team members and heads of department on the realities of working here.</p>
-        <div style="margin-top:26px"><a class="btn" href="#" style="border-color:var(--inv-txt);color:var(--inv-txt)">Watch the perspectives</a></div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- EXIT -->
-<section class="exit">
+<!-- CLOSING CTA — CEO quote, inverted -->
+<section class="ctaq">
   <div class="wrap">
-    <div class="grid">
-      <div>
-        <span class="mono">Next step</span>
-        <h2 style="margin-top:20px">Tell us what you would want to build.</h2>
-        <p>We are not listing vacancies on this page. If the work above is the work you want to do, write to us and say which part, and why.</p>
-        <div style="margin-top:36px"><a class="btn solid" href="contact.html">Write to us</a></div>
+    <span class="mono">Join Trinax</span>
+    <blockquote>
+      <p>Embrace the challenge; At Trinax, we set high expectations, ensuring your journey with us is not just a career but a fulfilling adventure.</p>
+      <cite>Joel Goh · CEO of Trinax</cite>
+    </blockquote>
+    <div class="acts">
+      <div class="act">
+        <h3>See what is open</h3>
+        <p>Current openings are posted on our LinkedIn page.</p>
+        <a class="btn solid" href="#">View job openings on LinkedIn</a>
       </div>
-      <div class="side">
-        <span class="mono">Before you write</span>
-        <p style="margin-top:16px">Read how we approach projects and what we have delivered before you write.</p>
-        <div style="margin-top:30px;display:flex;gap:14px;flex-wrap:wrap">
-          <a class="btn" href="about.html">About Trinax</a>
-          <a class="btn" href="work.html">See the work</a>
-        </div>
+      <div class="act">
+        <h3>Write to us directly</h3>
+        <p>Send your resume and a cover letter telling us which part of the work you want to do.</p>
+        <a class="btn" href="contact.html">Send your resume</a>
+        <p class="mono note">[ Careers email address to be supplied ]</p>
       </div>
     </div>
   </div>
