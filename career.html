@@ -108,7 +108,7 @@
 
 
   /* CLOSING CTA — inverted, the page's contrast moment */
-  .ctaq{background:var(--inv-bg);color:var(--inv-txt);border-bottom:none;padding-bottom:130px}
+  .ctaq{background:var(--inv-bg);color:var(--inv-txt);border-bottom:none}
   .ctaq .mono{color:var(--inv-muted)}
   .ctaq blockquote{margin-top:26px}
   /* ch must sit on the p: on the blockquote it resolves against the inherited body size */
@@ -121,6 +121,17 @@
   .ctaq .act .btn.solid{background:var(--inv-txt);color:var(--inv-bg);border-color:var(--inv-txt)}
   .ctaq .act .btn:not(.solid):hover{background:var(--inv-txt);color:var(--inv-bg);border-color:var(--inv-txt)}
   .ctaq .act .btn.solid:hover{background:#000;border-color:#000}
+
+  /* TRUSTED AT SCALE */
+  .trust{border-bottom:none;padding-bottom:130px}
+  .trust .sub{color:var(--muted);max-width:56ch;margin-top:18px}
+  .trust .stats{margin-top:64px;border-top:1px solid var(--hair);display:grid;grid-template-columns:repeat(3,1fr)}
+  .trust .stat{padding:38px 34px;border-right:1px solid var(--hair)}
+  .trust .stat:first-child{padding-left:0}
+  .trust .stat:last-child{border-right:none}
+  .trust .sv{display:block;font-family:'Archivo',sans-serif;font-size:clamp(2.2rem,4vw,3.2rem);font-weight:700;color:var(--white);line-height:1;letter-spacing:-0.02em}
+  .trust .sk{display:block;margin-top:15px;color:var(--txt)}
+  .trust .foot{border-top:1px solid var(--hair);padding-top:24px}
 
   footer{border-top:1px solid var(--hair);padding:72px 0 44px}
   footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1.3fr;gap:44px}
@@ -141,6 +152,9 @@
     .wrap{padding:0 24px}
     .istx .cols,.think .expose{grid-template-columns:1fr}
     .ctaq .acts{grid-template-columns:1fr;gap:44px}
+    .trust .stats{grid-template-columns:1fr}
+    .trust .stat{padding:28px 0;border-right:none;border-bottom:1px solid var(--hair)}
+    .trust .stat:last-child{border-bottom:none}
     .think .row{grid-template-columns:1fr;gap:8px}
     .istx .strip{grid-template-columns:1fr 1fr}
     .good .grow{grid-template-columns:1fr;gap:10px}
@@ -430,6 +444,21 @@
         <a class="btn" href="contact.html">Send your application</a>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- TRUSTED AT SCALE -->
+<section class="trust">
+  <div class="wrap">
+    <h2>Trusted at scale</h2>
+    <p class="lede">Trusted by the institutions Singapore relies on and by organisations across government, finance, retail, shopping malls, beauty and cosmetics.</p>
+    <p class="sub">Experience built for environments where every interaction must perform reliably.</p>
+    <div class="stats">
+      <div class="stat"><span class="sv">2011</span><span class="mono sk">Since</span></div>
+      <div class="stat"><span class="sv">350+</span><span class="mono sk">Projects delivered</span></div>
+      <div class="stat"><span class="sv">70%+</span><span class="mono sk">Customer retention</span></div>
+    </div>
+    <div class="foot"><span class="mono">Award-recognised work and proven systems</span></div>
   </div>
 </section>
 
