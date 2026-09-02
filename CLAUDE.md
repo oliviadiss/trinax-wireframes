@@ -55,7 +55,7 @@ Design prototypes for the new trinax.sg, by Our Little Company (OLC).
 
 ## Career page — pending from Trinax
 
-Per the client brief (Google Doc, "CAREER PAGE"). career.html carries a temporary production banner listing these; remove it before launch.
+Per the client brief (Google Doc, "CAREER PAGE"). The page no longer carries an on-page production banner, so this list is the only record of what is outstanding.
 
 - Hero showreel: YouTube links (Joel — deferred until Career content/visuals are done)
 - How We Think + What Good Looks Like: photography and descriptions, incl. Vince's staged shots (Siewhua, Google Slide — progress 4 Sep, completion 18 Sep 2026)
