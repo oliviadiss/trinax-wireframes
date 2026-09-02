@@ -1,7 +1,7 @@
 # Trinax website prototype — handoff
 
 Design prototypes for the new trinax.sg, by Our Little Company (OLC).
-13 static HTML pages, self-contained (no build step, no dependencies beyond Google Fonts CDN). Open index.html to start.
+14 static HTML pages, self-contained (no build step, no dependencies beyond Google Fonts CDN). Open index.html to start.
 
 ## Pages
 
@@ -15,6 +15,7 @@ Design prototypes for the new trinax.sg, by Our Little Company (OLC).
 | case-study-dreamlab.html | Featured case study template (URA Dream Lab) | v1, separate template from projects |
 | project-changi.html | Standard project template (Changi Peanuts) | v1, top banner explains the template |
 | about.html | About (merged company + approach) | v1 |
+| career.html | Career (8 sections per client brief, not an open-roles page) | v1, media placeholders |
 | contact.html | Contact | v1 |
 | insights.html | Insights landing | v1 |
 | article.html | Article template (real Trinax article as sample) | v1 |
@@ -50,4 +51,16 @@ Design prototypes for the new trinax.sg, by Our Little Company (OLC).
 
 ## Not yet built
 
-Career page, 7 system child pages (or phase-1 anchor fallback on systems.html), remaining 4 featured case studies.
+7 system child pages (or phase-1 anchor fallback on systems.html), remaining 4 featured case studies.
+
+## Career page — pending from Trinax
+
+Per the client brief (Google Doc, "CAREER PAGE"). career.html carries a temporary production banner listing these; remove it before launch.
+
+- Hero showreel: YouTube links (Joel — deferred until Career content/visuals are done)
+- How We Think + What Good Looks Like: photography and descriptions, incl. Vince's staged shots (Siewhua, Google Slide — progress 4 Sep, completion 18 Sep 2026)
+- Faces of Trinax: 6+ interviews, new filming (Irfan — format, participants, questions, edits; completion 16 Oct 2026)
+- A Project in the Life: documentary-style project follow, new filming (completion 16 Oct 2026)
+- How We Celebrate: curation of existing footage/photos + ongoing capture (Irfan)
+- It May Not Be For You If: v1 video ready 27 Aug 2026, link it in place of the placeholder
+- Real project examples for each of the eight behaviours
