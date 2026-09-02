@@ -71,7 +71,7 @@ Per the client brief (Google Doc, "CAREER PAGE"). The page no longer carries an 
 - The closing CTA is the page's inverted light section, replacing the contrast moment lost with section 8. Joel Goh's quote is verbatim as supplied, including the "challenge; At" punctuation. About.html styles him "Founder & CEO"; the CTA says "CEO of Trinax" as given.
 
 - Headings are sentence case throughout, per the guidelines. Capitals retained only for proper nouns: "Trinax"/"Trinaxians", and the framework names "Double Diamond" and "Return on Experience".
-- The brief lists eight behaviours; the client consolidated them into five. All eight are still covered: commitment and consistency both sit in "Do what you said", quality and accountability in "Care about the finish", collaboration and learning in "Make the team stronger".
+- The brief lists eight behaviours; the client consolidated them into five. All eight are still covered: commitment and consistency both sit in "Do what you said", quality and accountability in "Care about the finish", collaboration and learning in "Make the team stronger". The section lede states the count ("These five behaviours..."), so it must be updated if the list ever changes.
 
 ### Career copy — claims to validate with Trinax
 
